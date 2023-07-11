@@ -1,7 +1,5 @@
 package nc.agilesoft.formation.intellij.exercice5;
 
-import nc.agilesoft.formation.intellij.exercice5.solution.batiment.Construction;
-
 import java.time.LocalDate;
 import java.time.Period;
 import java.util.Objects;
@@ -12,7 +10,7 @@ public class Personne {
     private String nom;
     private String prenom;
     private LocalDate dateNaissance;
-    private Construction construction;
+    private Batiment batiment;
 
     public Personne(String nom, String prenom, LocalDate dateNaissance) {
         this.nom = nom;
@@ -72,12 +70,12 @@ public class Personne {
         this.dateNaissance = dateNaissance;
     }
 
-    public Construction getBatiment() {
-        return construction;
+    public Batiment getBatiment() {
+        return batiment;
     }
 
-    public void setBatiment(Construction construction) {
-        this.construction = construction;
+    public void setBatiment(Batiment batiment) {
+        this.batiment = batiment;
     }
 
 //    public void methodeInvalide() {

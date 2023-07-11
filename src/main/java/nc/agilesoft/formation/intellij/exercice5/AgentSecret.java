@@ -1,7 +1,5 @@
 package nc.agilesoft.formation.intellij.exercice5;
 
-import nc.agilesoft.formation.intellij.exercice5.solution.Agent;
-
 import java.time.LocalDate;
 
 public class AgentSecret extends Agent {
