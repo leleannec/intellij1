@@ -1,0 +1,16 @@
+POST http://localhost:8080/api/orders
+Content-Type: application/json
+
+{
+  "productOrders": [
+    {
+      "product": {
+        "id": 1,
+        "name": "TV Set",
+        "price": 300,
+        "pictureUrl": "http://placehold.it/200x100"
+      },
+      "quantity": 2
+    }
+  ]
+}
