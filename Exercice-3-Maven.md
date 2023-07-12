@@ -1,14 +1,15 @@
 
 Exercice :
 
+Lancer une commande maven
+
 - Stopper le projet s'il est démarré
 - Exécuter la commance maven install à la souris en double-cliquant sur la cible "install" 
 - Exécuter la commande maven clean dans un terminal (ALT+F12) : `mvn clean`
   - Vérifier le build ok du projet 
 - Exécuter un "mvn clean install" en utilisant le bouton "execute maven goal"  (constater l'autocomplétion proposée)
 
-
-Dépendances
+Gérer les dépendances
 
 - cliquer sur "Analyze dependencies"
 - rechercher "hibernate-commons-annotations"
@@ -28,3 +29,6 @@ Dépendances
         </dependency>
 
 - appuyer sur CTRL+SPACE pour compléter la version
+
+- afficher diagramme "show diagram" pour afficher les dépendances du projet
+  - tester les différentes options de présentation
