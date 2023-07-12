@@ -10,4 +10,3 @@ Exercice :
 - Créer une requête HTTP qui permet de créer une commande (order)
 - Exécuter la requête HTTP dans IntelliJ
 - Vérifier que la base de données a été modifiée
-
