@@ -18,6 +18,7 @@ public class ProductServiceImpl implements ProductService {
 
     @Override
     public Iterable<Product> getAllProducts() {
+        CalculComplexe.calculComplexeAppliWeb();
         return productRepository.findAll();
     }
 

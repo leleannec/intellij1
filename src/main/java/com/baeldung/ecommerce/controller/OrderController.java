@@ -5,6 +5,7 @@ import com.baeldung.ecommerce.exception.ResourceNotFoundException;
 import com.baeldung.ecommerce.model.Order;
 import com.baeldung.ecommerce.model.OrderProduct;
 import com.baeldung.ecommerce.model.OrderStatus;
+import com.baeldung.ecommerce.service.CalculComplexe;
 import com.baeldung.ecommerce.service.OrderProductService;
 import com.baeldung.ecommerce.service.OrderService;
 import com.baeldung.ecommerce.service.ProductService;
@@ -43,6 +44,7 @@ public class OrderController {
 
     @PostMapping
     public ResponseEntity<Order> create(@RequestBody OrderForm form) {
+        CalculComplexe.calculComplexeAppliWeb();
         List<OrderProductDto> formDtos = form.getProductOrders();
         validateProductsExistence(formDtos);
         Order order = new Order();
