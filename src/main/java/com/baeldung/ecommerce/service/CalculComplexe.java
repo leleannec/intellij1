@@ -27,7 +27,7 @@ public class CalculComplexe {
     private static void methodFaitDesCalculsModulo() {
         for (int i=1; i<=4_000_000; i++) {
             for (int j=1; j<=1100; j++) {
-                if ((i+j)%546_456_482==0) {
+                if ((i+j)%456_482==0) {
                     System.out.println("i="+i+" j="+j);
                 }
             }
