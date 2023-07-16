@@ -3,7 +3,7 @@ Navigation dans le code
 - Fermer tous les onglets
 - Réouvrir la classe Batiment (uniquement au clavier)
   proposé : "CTRL+N Bat"
-- Ajouter un commentaire dans la classe Personne
+- Ajouter un commentaire dans la classe Personne (taper /** entrée au-dessus de Personne)
 - Ajouter un commentaire dans la classe Batiment
 - Fermer tous les onglets
 - Revenir à la dernière modification : CTRL+SHIFT+BACK

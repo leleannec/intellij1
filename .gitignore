@@ -27,3 +27,5 @@ replay_pid*
 
 /src/main/js/ecommerce/dist/
 /src/main/js/ecommerce/node_modules/
+/target/
+/.idea/
