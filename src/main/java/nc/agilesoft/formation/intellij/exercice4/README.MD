@@ -1,13 +1,3 @@
-Objectifs de l'exercice :
-
-- live templates
-- file templates
-- formattage de code
-- optimiser les imports
-- save actions
-
----
-
 Live templates
 
 - Insérer un live template
@@ -46,22 +36,26 @@ File templates
 
 ---
 
-Actions on Save / Formattage de code
+Actions on Save / Formatage de code
 
-- Sélectionner un fichier : Reformat code (CTRL+ALT+L)
+- Sélectionner un fichier : 
+  - Déformer volontairement le format du code (sans casser la compilation), exemple : ajout d'espaces, de retours à la ligne
+  - Reformat code (CTRL+ALT+L) : le code est reformaté
 
 - Configurer Settings (CTRL+ALT+S) > tools > Actions on save, demander
-    - un formattage automatique à chaque enregistrement
+    - un formatage automatique à chaque enregistrement
     - "Optimize imports"
-- Modifier un fichier Java (ajouter des blancs inutiles ou autre; et CTRL+S pour voir le formattage s'appliquer)
 
-- Désactiver le formattage sur une section de code :
+- Modifier un fichier Java (ajouter des blancs inutiles ou autre; et CTRL+S pour voir le formatage s'appliquer automatiquement)
+  (note le CTRL+S n'est pas utile pour sauver un fichier, il est automatiquement sauvegardé à chaque modification)
+
+- Désactiver le formatage sur une section de code :
     - Ajouter @formatter:off avant une méthode Java et @formatter:on après une méthode Java
-    - Modifier la méthode pour changer son formattage normal
+    - Modifier la méthode pour changer son formatage normal
     - Formatter le fichier
-    - La section reste inchangée
+    - Le formatage de la section concernée reste inchangée
 
-Changer les paramètres de formattage
+Changer les paramètres de formatage
 
 - Settings > Editor > Code style > Java
   - Modifier un paramètre
@@ -71,6 +65,5 @@ Changer les paramètres de formattage
 
 Pour aller plus loin :
 
-- Explorer les différents paramètres de formattage
+- Explorer les différents paramètres de formatage
 - Explorer les live templates et file templates déjà existants
-
