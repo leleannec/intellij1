@@ -37,7 +37,7 @@
       pour la méthode calculateAgeADate
     - Taper assertThat() et ALT+ENTREE pour avoir les suggestions, choisir import static method... et
       org.assertj.core.api.Assertions.assertThat
-    - Ajouter un test ok, un test ko
+    - Ajouter un test unitaire ok, un autre test unitaire ko
     - Lancer les tests
     - Vue tests : voir le test vert, et le test rouge avec sa stacktrace d'erreur
     - Essayer en mode Debug
