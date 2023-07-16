@@ -1,16 +1,6 @@
-Objectifs :
-
-- créer une classe Java, avec un main
-- lancer l'application en mode run ou debug
-- générer du code automatique (constructeur, toString, getters, etc.)
-- copier-coller une classe pour la modifier
-- rechercher/remplacer
-- renommer
-- structurer les packages
-
 Actions
 
-- Créer une nouvelle classe Java "Personne"
+- Créer une nouvelle classe Java "Personne", dans le package nc.agilesoft.formation.intellij.exercice2
   (bouton droit -> New Java Class)
 - Ajouter un main (taper main et laisser l'éditeur proposer)
 - Ajouter l'instruction : System.out.println("Hello world");
@@ -22,6 +12,7 @@ Actions
 
 - Mettez un point d'arrêt en début de main()
 - Lancer l'application en mode debug, et exécuter pas à pas
+  (note : le debug sera revu plus en détail dans un exercice ultérieur).
 
 Génération de code
 
@@ -48,13 +39,13 @@ Génération de code
   lancer le test (vide) -> il est vert
 
 - Copier la classe Personne vers une classe Batiment
-- Ajouter javadoc au niveau du constructeur
+- Ajouter javadoc au niveau du constructeur de la classe Batiment
   Proposé : se placer sur le constructeur, et appuyer sur ALT+ENTREE
 
 Rechercher / remplacer
 
 - Il reste des chaines "Personne" dans la classe Batiment. Renommer (CTRL+F).
-    - Expérimenter la fonction "Preserve Case" (très utile!) pour gérer la casse.
+    - Expérimenter la fonction "Preserve Case" (Aa) (très utile!) pour gérer la casse.
 
 - Remplacer "batiment" par "batiment2" dans tout le projet, uniquement sur les fichiers Java
     - utiliser "replace in files" (SHIFT+CTRL+A replace in files)
