@@ -7,3 +7,5 @@
 /dataSources/
 /dataSources.local.xml
 
+# déconseillé pour projets maven (https://www.jetbrains.com/help/idea/configure-project-settings.html#share-project-through-vcs)
+modules.xml
