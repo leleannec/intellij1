@@ -18,7 +18,3 @@ Debugguer l'application Angular
 - Dans la console, taper : this.ordersUrl  (cela doit renvoyer "/api/orders")
 
 Créer un composant Angular, dans le répertoire ecommerce : Boutique
-
-
-
-

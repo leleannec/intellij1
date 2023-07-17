@@ -21,10 +21,10 @@ Exercice sur la partie base de données:
 Bonus si temps dispo :
 - positionner la table orders en orange
 - rechercher "find usages" sur la table product pour voir qui utilise la table (on doit retrouver notamment la vue)
-- explorer les différents menus disponibles
 - renommer la tables product en product2 (puis de nouveau en "product")
   - utiliser SHIFT+F6
   - étudier les propositions d'IntelliJ (au final, choisir de ne modifier que la table elle-même sans toucher au code)
+- explorer les différents menus disponibles
 
 ----
 
