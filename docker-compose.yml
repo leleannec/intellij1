@@ -8,8 +8,6 @@ services:
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: password
       POSTGRES_DB: formation
-    volumes:
-      - postgres-data:/var/lib/postgresql/data
 
   spring-app:
     build:
@@ -23,6 +21,3 @@ services:
       SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/formation
       SPRING_DATASOURCE_USERNAME: postgres
       SPRING_DATASOURCE_PASSWORD: password
-
-volumes:
-  postgres-data:
