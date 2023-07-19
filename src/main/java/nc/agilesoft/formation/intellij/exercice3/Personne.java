@@ -10,7 +10,6 @@ public class Personne {
     private String nom;
     private String prenom;
     private LocalDate dateNaissance;
-    private Batiment batiment;
 
     public Personne(String nom, String prenom, LocalDate dateNaissance) {
         this.nom = nom;
@@ -68,13 +67,5 @@ public class Personne {
 
     public void setDateNaissance(LocalDate dateNaissance) {
         this.dateNaissance = dateNaissance;
-    }
-
-    public Batiment getBatiment() {
-        return batiment;
-    }
-
-    public void setBatiment(Batiment batiment) {
-        this.batiment = batiment;
     }
 }

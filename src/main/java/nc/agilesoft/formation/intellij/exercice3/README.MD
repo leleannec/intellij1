@@ -27,7 +27,7 @@ Trouver les usages de la classe Batiment dans le code :
 
 Actions complémentaires sur le code :
 
-- Déplacer une méthode ou une variable membre :
+- Classe Batiment : déplacer une méthode ou une variable membre :
     - Déplacer la méthode toString sous la méthode equals
         - cliquer sur le nom de la méthode
         - CTRL+SHIFT+flèche (bas ou haut) pour déplacer
@@ -38,12 +38,18 @@ Actions complémentaires sur le code :
 Sélection de caractères :
 
 - dans divers endroits du code Java, essayer CTRL+W plusieurs fois
-- puis SHIFT+CTRL pour réduire la sélection
+- puis SHIFT+CTRL+W pour réduire la sélection
 - CTRL+A pour sélectionner tout le contenu du fichier ouvert
 - mode vertical (très productif dans certains cas) :
     - exemple : placer vous sur la première ligne "System.out.println" dans le main
-    - taper CTRL+CTRL (en laissant enfoncé sur le 2èm CTRL)
+    - taper CTRL puis de nouveau rapidement CTRL mais en laissant enfoncé sur ce second appui
+    - maintenir la touche CTRL enfoncée
     - appuyer sur la flèche du bas 2 fois : 3 curseurs apparaissent
     - appuyer sur CTRL+flèche droite pour vous déplacer rapidement à droite
     - ajouter ... juste avant le dernier ! pour obtenir
       System.out.println("Bonjour world <x> ...!"); sur les 3 lignes simultanément
+
+
+En fin d'exercice, nettoyage de votre code source :
+- Git > rollback
+- Suppression des fichiers non versionnés (apparaissent en rouge)
