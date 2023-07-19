@@ -85,3 +85,7 @@ Vérification d'expressions régulières :
 - Positionnez vous sur le texte "abc"
 - Alt+Entrée > Check regexp
 - Tester l'expression régulière avec différents textes (exemple de test : "zzzabccdef1aaaa")
+
+En fin d'exercice, nettoyage de votre code source :
+- Git > rollback
+- Suppression des fichiers non versionnés (apparaissent en rouge)
