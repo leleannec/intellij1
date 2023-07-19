@@ -6,9 +6,6 @@ Exercice :
 - Créer un répertoire kotlin dans src/main
 - Le déclarer comme source (bouton droit -> Mark directory as -> Sources Root)
 
-- Créer une classe Kotlin : HelloWorld.kt avec un main :
-  - aide si besoin : https://www.programiz.com/kotlin-programming/hello-world
-
 - Créer un fichier HelloWorld.kt avec comme contenu (pas besoin de classe ici) :
 
       import com.baeldung.ecommerce.model.Order
@@ -31,3 +28,9 @@ Exercice :
 - Mettre un point d'arrêt sur la ligne get() = productService.allProducts
 - F5 dans le navigateur, constater que le point d'arrêt est atteint
 - Evaluer l'expression productService.allProducts (ALT+F8)
+
+
+En fin d'exercice, nettoyage de votre code source :
+
+- Git > rollback
+- Suppression des fichiers non versionnés (apparaissent en rouge)

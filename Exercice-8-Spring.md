@@ -36,3 +36,10 @@ Modification d'un paramètre de JVM
 - Constater un crash ! (manque de ram) -> java.lang.OutOfMemoryError: Java heap space
 - Position -Xmx1024m
 - Relancer l'application
+
+
+En fin d'exercice, nettoyage de votre code source :
+
+- Git > rollback
+- Suppression des fichiers non versionnés (apparaissent en rouge)
+

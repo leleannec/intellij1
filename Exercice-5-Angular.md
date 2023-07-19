@@ -18,3 +18,10 @@ Debugguer l'application Angular
 - Dans la console, taper : this.ordersUrl  (cela doit renvoyer "/api/orders")
 
 Créer un composant Angular, dans le répertoire ecommerce : Boutique
+
+
+En fin d'exercice, nettoyage de votre code source :
+
+- Git > rollback
+- Suppression des fichiers non versionnés (apparaissent en rouge)
+

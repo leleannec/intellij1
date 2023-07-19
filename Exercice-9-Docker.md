@@ -45,3 +45,9 @@ Exercice 9.3 : exploiter un docker-compose.yml
 - Ajouter un produit avec une quantité 123 dans le panier + checkout + Pay
 - Créer une connexion à la bdd formation du container docker (disponible sur le port 5433)
 - Constater le produit ajouté dans la table order_product (quantity = 123)
+
+
+En fin d'exercice, nettoyage de votre code source :
+
+- Git > rollback
+- Suppression des fichiers non versionnés (apparaissent en rouge)
