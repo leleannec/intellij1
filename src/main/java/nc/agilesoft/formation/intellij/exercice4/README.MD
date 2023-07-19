@@ -50,7 +50,7 @@ Actions on Save / Formatage de code
   (note le CTRL+S n'est pas utile pour sauver un fichier, il est automatiquement sauvegardé à chaque modification)
 
 - Désactiver le formatage sur une section de code :
-    - Ajouter @formatter:off avant une méthode Java et @formatter:on après une méthode Java
+    - Ajouter le commentaire spécial //@formatter:off avant une méthode Java et le commentaire //@formatter:on après une méthode Java
     - Modifier la méthode pour changer son formatage normal
     - Formatter le fichier
     - Le formatage de la section concernée reste inchangée
@@ -63,7 +63,13 @@ Changer les paramètres de formatage
 
 ---
 
-Pour aller plus loin :
+Bonus, pour aller plus loin :
 
 - Explorer les différents paramètres de formatage
-- Explorer les live templates et file templates déjà existants
+- Explorer les live templates et file templates déjà existants. Note les live templates sont spécifiques à un langage.
+Essayer selc par exemple dans un fichier scratch .sql  (cela doit faire apparaître select count(*) from ...)
+
+
+En fin d'exercice, nettoyage de votre code source :
+- Git > rollback
+- Suppression des fichiers non versionnés (apparaissent en rouge)
