@@ -52,7 +52,7 @@ Actions on Save / Formatage de code
 - Désactiver le formatage sur une section de code :
     - Ajouter le commentaire spécial //@formatter:off avant une méthode Java et le commentaire //@formatter:on après une méthode Java
     - Modifier la méthode pour changer son formatage normal
-    - Formatter le fichier
+    - Formater le fichier
     - Le formatage de la section concernée reste inchangée
 
 Changer les paramètres de formatage
