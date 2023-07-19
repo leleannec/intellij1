@@ -23,9 +23,7 @@
 hs_err_pid*
 replay_pid*
 
-/.idea
-
 /src/main/js/ecommerce/dist/
 /src/main/js/ecommerce/node_modules/
 /target/
-/.idea/
+*.iml
