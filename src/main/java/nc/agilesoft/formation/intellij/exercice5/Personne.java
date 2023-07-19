@@ -82,7 +82,7 @@ public class Personne {
 //        int chaine="aa";  // ALT+ENTREE pour voir des suggestions  (change variable type to String)
 //        System.out.print("code pas bon"   // utiliser SHIFT+CTRL+ENTREE après le second " pour compléter le code
 //        Batiment batiment = new Batiment();  // ALT+ENTREE, choisir create constructor
-//        batiment.methodePrivee(); // ALT+ENTREE, make method public
+//        batiment.methodePrivee(); // ALT+ENTREE, passer la méthode en public, et la renommer methodePublic au passage
 //    }
 
     /**

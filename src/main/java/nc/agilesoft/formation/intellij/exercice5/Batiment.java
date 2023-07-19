@@ -79,4 +79,8 @@ public class Batiment {
     public void setDateConstruction(LocalDate dateConstruction) {
         this.dateConstruction = dateConstruction;
     }
+
+    private void methodePrivee() {
+        System.out.println("Méthode importante :)");
+    }
 }

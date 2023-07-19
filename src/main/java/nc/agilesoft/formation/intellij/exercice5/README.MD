@@ -1,3 +1,5 @@
+- Maven clean package pour vérifier que tout fonctionne
+
 - Consulter la hiérarchie de classes
 
     - Créer une classe Agent qui hérite de Personne  (utiliser ALT+ENTER Create subclass...)
@@ -10,8 +12,8 @@
 
     - exercice :
         - ouvrir java.time.Period.java (CTRL+N)
-        - ouvrir méthode (CTRL+F12) :
-          public static ChronoPeriod between(ChronoLocalDate startDateInclusive, ChronoLocalDate endDateExclusive)
+        - ouvrir la méthode (CTRL+F12) : public static ChronoPeriod between(ChronoLocalDate startDateInclusive, ChronoLocalDate endDateExclusive)
+        - Note : appuyer plusieurs fois sur CTRL+F12 pour cocher/décocher "inherited members"
         - ouvrir la hiérarchie d'appels : Call hierarchy, CTRL+ALT+H
 
 - Utilisation de Lombok
@@ -87,5 +89,20 @@
 
         - Remove field, Safe delete :
             - exercice : sur AgentSecret, supprimer les éléments inutiles
+          
+        - Change signature :
+            - exercice : sur le constructeur de Personne, intervertir l'ordre des paramètres nom et prénom (utiliser le refactoring change signature)
+            - ouvrir la classe Agent, constater que l'appel à super a été impacté correctement
 
+        - Introduce parameter object :
+            - exercice : sur le constructeur de Personne, sélectionner les paramètres nom et prénom, et utiliser le refactoring introduce parameter object
+            pour créer une classe (en fait un record) Identite (avec les 2 champs nom et prénom)
+            - rechercher les usages du constructeur Personne, constater les modifications opérées pour utiliser le nouveau constructeur
+  
         - Autres refactorings possibles plus avancés : à essayer! 
+
+
+En fin d'exercice, nettoyage de votre code source :
+
+- Git > rollback
+- Suppression des fichiers non versionnés (apparaissent en rouge)
