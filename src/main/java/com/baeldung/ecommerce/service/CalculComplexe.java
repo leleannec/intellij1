@@ -19,7 +19,7 @@ public class CalculComplexe {
 
     private static void methodCreeDesListes() {
         List<ArrayList<Integer>> list = new ArrayList<>();
-        for (int i=1; i<=2_000_000; i++) {
+        for (int i=1; i<=200_000; i++) {
             list.add(new ArrayList<>(1_000));
         }
     }
