@@ -32,3 +32,8 @@ Exercice 3 : couverture de tests
 - Exécuter "run all tests with coverage"
 - Identifier des lignes non couvertes par les tests
 
+Rappel, indiquer quand vous avez fini l'exercice :)
+
+
+Pour aller plus loin :
+https://www.jetbrains.com/help/idea/profiler-intro.html?q=profiling&s=full

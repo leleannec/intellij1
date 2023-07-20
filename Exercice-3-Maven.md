@@ -32,3 +32,10 @@ Gérer les dépendances
 
 - afficher diagramme "show diagram" pour afficher les dépendances du projet
   - tester les différentes options de présentation
+
+
+Rappel, indiquer quand vous avez fini l'exercice :)
+
+
+Pour aller plus loin :
+https://www.jetbrains.com/help/idea/profiler-intro.html?q=maven&s=full

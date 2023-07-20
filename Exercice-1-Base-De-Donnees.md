@@ -18,6 +18,10 @@ Exercice sur la partie base de données:
   - Faites un export SQL de la table orders (inserts)
 - Utiliser le "SQL Generator" pour générer le DDL complet
 
+
+Rappel, indiquer quand vous avez fini l'exercice :)
+
+
 Bonus si temps dispo :
 - positionner la table orders en orange
 - rechercher "find usages" sur la table product pour voir qui utilise la table (on doit retrouver notamment la vue)
@@ -28,8 +32,12 @@ Bonus si temps dispo :
 
 ----
 
+Pour aller plus loin :
+https://www.jetbrains.com/help/idea/profiler-intro.html?q=database&s=full
 
-### Relevant Articles:
+
+### Articles sur le tutoriel :
 
 - [Building a Web Application with Spring Boot and Angular](https://www.baeldung.com/spring-boot-angular-web)
 - [A Simple E-Commerce Implementation with Spring](https://www.baeldung.com/spring-angular-ecommerce)
+

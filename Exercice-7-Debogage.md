@@ -22,3 +22,21 @@ Point d'arrêt conditionnel
 - Appuyer sur F9 pour reprendre
 - L'application doit s'arrêter sur i=6, etc.
 - Evaluer l'expression i*j (ALT+F8 : dans une popup)
+
+Hot swap
+
+- Enlever les points d'arrêt et couper l'application si elle est démarrée
+- Edit configuration > Modify options > On update action > hot swap classes and update triggers file if failed
+- Démarrer l'application en mode debug
+- Dans l'application Web, créer une commande "normale" (qté = 77)
+- Dans OrderServiceImpl, modifier la ligne :         order.setDateCreated(LocalDate.now());
+- remplacer par :             order.setDateCreated(LocalDate.now().plusYears(1));
+- Rebuilder le fichier -> la mention "hot swap" apparait furtivement dans la barre de progression en bas, ne pas redémarrer l'application
+- La modification a été prise à chaud, vérification :
+- Dans l'application Web, créer une seconde commande (qté = 78 par exemple)
+- Vérifier en base de données la différence d'un an sur la date (table "orders")
+
+Rappel, indiquer quand vous avez fini l'exercice :)
+
+Pour aller plus loin :
+https://www.jetbrains.com/help/idea/examining-suspended-program.html#find-execution-point

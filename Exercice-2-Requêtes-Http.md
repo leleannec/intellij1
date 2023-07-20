@@ -10,3 +10,10 @@ Exercice :
 - Créer une requête HTTP qui permet de créer une commande (order)
 - Exécuter la requête HTTP dans IntelliJ
 - Vérifier que la base de données a été modifiée
+
+
+Rappel, indiquer quand vous avez fini l'exercice :)
+
+
+Pour aller plus loin :
+https://www.jetbrains.com/help/idea/profiler-intro.html?q=http&s=full

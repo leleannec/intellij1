@@ -25,3 +25,10 @@ En fin d'exercice, nettoyage de votre code source :
 - Git > rollback
 - Suppression des fichiers non versionnés (apparaissent en rouge)
 
+Rappel, indiquer quand vous avez fini l'exercice :)
+
+
+
+Pour aller plus loin :
+
+https://www.jetbrains.com/help/idea/profiler-intro.html?q=angular&s=full
