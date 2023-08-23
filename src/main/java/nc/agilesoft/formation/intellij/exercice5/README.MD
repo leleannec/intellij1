@@ -106,3 +106,7 @@ En fin d'exercice, nettoyage de votre code source :
 
 - Git > rollback
 - Suppression des fichiers non versionnés (apparaissent en rouge)
+
+Si temps dispo :
+
+- Lancer "inspect code..." (sur "whole project")
