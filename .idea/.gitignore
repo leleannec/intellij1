@@ -1,6 +1,4 @@
 workspace.xml
 /httpRequests
 /shelf
-/libraries/Maven__net_bytebuddy_byte_buddy_1_12_21.xml
-/libraries/Maven__org_assertj_assertj_core_3_24_2.xml
-/libraries/Maven__org_projectlombok_lombok_1_18_28.xml
+/libraries
