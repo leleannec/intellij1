@@ -94,4 +94,13 @@ public class Personne {
         return period.getYears();
     }
 
+    /**
+     * Code pas très lisible :)
+     *
+     * @return nombre de millisecondes dans une année
+     */
+    public long methodePasTresClaire(int n) {
+        return (n % 4 == 0 && (n % 100 != 0 || n % 400 == 0) ? 366 : 365)*24*60*60*1000;
+    }
+
 }

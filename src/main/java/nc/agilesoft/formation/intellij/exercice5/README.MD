@@ -69,13 +69,13 @@
             - exercice :
                 - sélectionner "System.out.println("Bonjour world 1");" (dans main)
                 - cliquer sur extract method (CTRL+ALT+M)
-        - Extraire une variable
-            - exercice : en utilisant les refactorings automatiques intellij, travailler la méthode "x" :
+        - Extraire des constantes / variables / méthodes, pour clarifier un morceau de code :
+            - exercice : en utilisant les refactorings automatiques intellij, travailler la méthode "methodePasTresClaire" :
                 - lui donner un nom explicite
                 - extraire des constantes
                 - extraire une sous-méthode qui renvoie le nb de jour par an en fonction du caractère bissextile
                 - optionnel : créer une classe AgentUtil et déplacer la logique de calcul dedans + faire un test
-                  unitaire
+                  unitaire (il est possible d'utiliser le refactoring de déplacement, ou encore le refactoring "delegate")
         - Introduire un paramètre
             - exercice :
                 - sélectionner 1 dans "Bonjour world 1"
