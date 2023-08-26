@@ -10,7 +10,7 @@ Création d'une première classe Java
 - Créer une nouvelle classe Java "Personne", dans le package nc.agilesoft.formation.intellij.exercice2
   (bouton droit -> New Java Class)
 - Ajouter un main (taper main et laisser l'éditeur proposer)
-- Ajouter l'instruction : System.out.println("Hello world");
+- Ajouter l'instruction : System.out.println("Hello world");  (astuce : taper sout et laisser l'éditeur proposer)
 - Démarrer le programme (clic triangle vert)
 
 - Ajouter les instructions dans le main
@@ -45,7 +45,7 @@ Génération de code
   générer une méthode de test pour la méthode toString
   lancer le test (vide) -> il est vert
 
-- Copier la classe Personne vers une classe Batiment : se placer sur le fichier Personne, taper CTRL+C, CTRL+V (coller).
+- Copier la classe Personne vers une classe Batiment (pour cela : se placer sur le fichier Personne, taper CTRL+C, CTRL+V (coller))
   IntelliJ vous propose la création d'une nouvelle classe
 
 - Ajouter de la javadoc au niveau du constructeur de la classe Batiment
@@ -53,7 +53,7 @@ Génération de code
 
 Rechercher / remplacer
 
-- Il reste des chaines de caractère "Personne" dans la classe Batiment. Renommer (CTRL+F).
+- Si vous avez suivi les étapes proposées, il reste des chaines de caractère "Personne" dans la classe Batiment. Renommer (CTRL+F).
     - Expérimenter la fonction "Preserve Case" (Aa) (très utile!) pour gérer la casse.
 
 - Remplacer "batiment" par "batiment2" dans tout le projet, uniquement sur les fichiers Java
