@@ -82,6 +82,7 @@
                 - refatoring introduce parameter, appeler numero
         - remonter une méthode dans la hiérarchie
             - exercice :
+                - créer une méthode calculConges, sans paramètre, dans AgentSecret, qui retourne l'entier 25 (int)
                 - remonter la méthode calculConges (de AgentSecret) vers la super-classe Agent
                   (refactoring > pull up)
         - Inline :
