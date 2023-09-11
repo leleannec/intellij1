@@ -6,7 +6,6 @@ Configurer son IntelliJ
 - Proposé : enlever la vérification orthographique
     - Proofreading > Typo
 
-
 Se préparer pour les prochains exercices :
 
 - Optionnel : sur son second écran, ouvrir un navigateur sur la page GitHub :
